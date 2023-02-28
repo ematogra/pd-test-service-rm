@@ -1,0 +1,103 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin: 0;
+    padding-top: 2vh;
+    background: rgb(22, 27, 34);
+}
+
+button {
+    font-family: inherit;
+    padding: 0.5em 1em;
+}
+
+h1 {
+    text-align: center;
+    color: lightgrey;
+}
+
+table {
+    color: lightgray;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th,
+td {
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+a {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+.table-group-divider {
+    border-top: 2px solid lightgray;
+}
+
+p {
+    margin: 0;
+}
+
+.outer-wrapper {
+    text-align: center;
+}
+
+#inner-wrapper-search {
+    background: rgb(34, 45, 61);
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+#inner-wrapper-results {
+    background: rgb(34, 45, 61);
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 1rem;
+    display: none;
+}
+
+.form-label {
+    display: block;
+    color: lightgray;
+    margin: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.form-text {
+    display: block;
+    font-family: inherit;
+    /* margin: 0.1rem; */
+    margin: auto;
+    margin-bottom: 0.5em;
+    padding: 0.4rem;
+    font-size: 15px;
+    outline: 0;
+    width: 60%;
+}
+
+.inputs-inner p {
+    text-align: center;
+    color: lightgray;
+}
+
+.inputs {
+    font-family: inherit;
+    margin: 0.1rem;
+    padding: 0.4rem;
+    font-size: 15px;
+    outline: 0;
+    max-width: 22vw;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
